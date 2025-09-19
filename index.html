@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon/Calc.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="img/calculator.png" alt="" class="img1">
+            Calculadora JS
+        </h1>
+        <p>Quatro operações da matemática</p>
+        <img src="img/4-Operações.png" alt="" class="img2">
+    </header>
+    <hr>
+    <main>
+
+        <section>
+            <!--Adição-->
+            <input type="text" id="vrValor1">
+            <label> + </label>
+            <input type="text" id="vrValor2">
+            <button onclick="soma()">=</button>
+            <input type="text" id="vrValor3">
+        </section>
+        <br>
+        <section>
+            <!--Subtração-->
+            <input type="text" id="sub1">
+            <label> - </label>
+            <input type="text" id="sub2">
+            <button onclick="subtracao()">=</button>
+            <input type="text" id="sub3">
+        </section>
+        <br>
+        <section>
+            <!--multiplicação-->
+            <input type="text" id="mult1">
+            <label> X </label>
+            <input type="text" id="mult2">
+            <button onclick="vezes()">=</button>
+            <input type="text" id="mult3">
+        </section>
+        <br>
+        <section>
+            <!--divisão-->
+            <input type="text" id="div1">
+            <label> / </label>
+            <input type="text" id="div2">
+            <button onclick="divisao()">=</button>
+            <input type="text" id="div3">
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
